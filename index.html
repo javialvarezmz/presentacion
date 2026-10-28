@@ -3,18 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Javi Álvarez - Desarrollo tiendas online y proyectos de comercio electrónico." />
-    <title>Javi Álvarez · eCommerce</title>
+    <meta name="description" content="Javi Álvarez" />
+    <title>Javi Álvarez</title>
     <link rel="icon" href="data:," />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
       <h1>Javi Álvarez</h1>
-      <p>Me dedico al eCommerce: creo y gestiono tiendas online.</p>
       <p>
-        📧 <a href="mailto:contacto@javialvarez.es">contacto@javialvarez.es</a>
+        <a id="email" href="#">contacto [arroba] javialvarez.es</a>
+        ·
+        <a href="https://www.linkedin.com/in/javialvarez-es/" target="_blank" rel="noopener">LinkedIn</a>
       </p>
     </main>
+    <script>
+      const user = "contacto";
+      const domain = "javialvarez.es";
+      const link = document.getElementById("email");
+      link.href = "mailto:" + user + "@" + domain;
+      link.textContent = user + "@" + domain;
+    </script>
   </body>
 </html>
