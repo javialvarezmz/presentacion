@@ -9,20 +9,13 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  background: #f7f7f7;
+  background: #fff;
   color: #222;
 }
 
 main {
-  background: #fff;
-  padding: 2.5rem 3rem;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
   text-align: center;
-  box-sizing: border-box;
-  margin: 1rem;
-  width: calc(100% - 2rem);
-  max-width: 420px;
+  padding: 2rem;
 }
 
 h1 {
@@ -36,11 +29,13 @@ p {
 }
 
 a {
-  color: #555;
-  text-decoration: none;
+  color: #444;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  text-underline-offset: 3px;
 }
 
 a:hover {
   color: #000;
-  text-decoration: underline;
+  text-decoration-color: #000;
 }
