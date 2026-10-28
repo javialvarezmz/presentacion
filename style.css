@@ -6,16 +6,14 @@ html, body {
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif;
   line-height: 1.5;
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
+  margin: 0;
   background: #fff;
   color: #222;
 }
 
 main {
-  text-align: center;
-  padding: 2rem;
+  text-align: left;
+  padding: 15vh 10vw;
 }
 
 h1 {
